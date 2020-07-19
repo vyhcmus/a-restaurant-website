@@ -37,12 +37,12 @@ nav {
 .nav-menu li{
 	display: inline-block;
 	font-size: 18px;
-	text-transform: uppercase; //Dùng để in hoa
+	text-transform: uppercase; 
 
 }
 
 .nav-menu li a {
-	text-decoration: none; //Xóa dấu gạch chân ở liên kết
+	text-decoration: none; 
 	color: white;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -65,7 +65,7 @@ nav {
 	color: #fff;
 	font-size: 60px;
 	font-family: 'Oswald', sans-serif;
-	letter-spacing: 6px; //Khoảng cách giữa các từ
+	letter-spacing: 6px; 
 	margin-bottom: 50px;
 }
 
@@ -79,7 +79,7 @@ nav {
 }
 
 .header-cta-button:hover{
-	background-color: rgb(196, 137, 36);	//Hiệu ứng khi click dô thì đổi màu
+	background-color: rgb(196, 137, 36);
 }
 
 .search {
