@@ -1,0 +1,573 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;;
+}
+
+header {
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/1.jpg");
+	height: 500px;
+	background-size: cover;
+	text-align: center;
+
+}
+
+header li a {
+	color: white;
+}
+
+.logo {
+	color: #fff;
+	font-family: 'Yesteryear', cursive;
+	font-size: 40px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 40px;
+}
+
+.nav-menu{
+	list-style: none;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+
+.nav-menu li{
+	display: inline-block;
+	font-size: 18px;
+	text-transform: uppercase; //Dùng để in hoa
+
+}
+
+.nav-menu li a {
+	text-decoration: none; //Xóa dấu gạch chân ở liên kết
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav-menu li a: hover {
+	color: white;
+	transition: color 0.3s ease-in-out;
+}
+
+
+.header-title-1 {
+	color: #F2AC32;
+	font-size: 60px;
+	font-family: 'Rochester', cursive;
+	margin-top: 20px;
+}
+
+.header-title-2 {
+	color: #fff;
+	font-size: 60px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 6px; //Khoảng cách giữa các từ
+	margin-bottom: 50px;
+}
+
+.header-cta-button {
+	color: white;
+	background-color: #F2AC32;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: all;
+	margin-top: 100px;
+}
+
+.header-cta-button:hover{
+	background-color: rgb(196, 137, 36);	//Hiệu ứng khi click dô thì đổi màu
+}
+
+.search {
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+
+/**********Discover Section***********/
+.discover-section {
+	display: flex;
+	justify-content: center;
+	padding: 80px;
+	background-color: #F2F2F2;
+}
+
+.food-border {
+	border-style: solid;
+	border-size: 2px;
+	border-color: #F2AC32;
+	position: relative;
+}
+
+.food-overlay {
+	padding-top: 100px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	-webkit-box-shadow: -3px 3px 23px 0px rgba(0, 0,0, 0.75);
+	-moz-box-shadow:-3px 3px 23px 0px rgba(0, 0,0, 0.75);
+	box-shadow: -3px 3px 23px 0px rgba(0, 0,0, 0.75);
+}
+
+
+
+.food-item{
+	height: 620px;
+	width: 470px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+
+}
+
+.food-item p {
+	color: rgb(99, 99, 99);
+	font-size: 20px;
+	margin-bottom: 15px;
+
+}
+
+.food-item a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #F2AC32;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+
+.food-1 {
+	background-image: url("../images/3.jpg");
+	background-size: cover;
+	margin-top: -30px;
+	-webkit-box-shadow: -3px 3px 23px 0px rgba(0, 0,0, 0.75);
+	-moz-box-shadow:-3px 3px 23px 0px rgba(0, 0,0, 0.75);
+	box-shadow: -3px 3px 23px 0px rgba(0, 0,0, 0.75);
+}
+
+.food-2 {
+	background-image: url("../images/2.jpg");
+	background-size: cover;
+	-webkit-box-shadow: -3px 3px 23px 0px rgba(0, 0,0, 0.75);
+	-moz-box-shadow:-3px 3px 23px 0px rgba(0, 0,0, 0.75);
+	box-shadow: -3px 3px 23px 0px rgba(0, 0,0, 0.75);
+}
+
+.discover-h1 {
+	font-family: 'Rochester', cursive;
+	color: #F2AC32;
+	margin-top: 60;
+	margin-bottom: 15px;
+}
+
+.discover-h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+/************ Start Specialities Section *****************/
+
+.specialities-section {
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8)), url("../images/7.jpg");
+	background-size: cover;
+	padding-bottom: 50px;
+}
+.specialities-h1 {
+	font-family: 'Rochester', cursive;
+	color: #F2AC32;
+	padding-top: 150px;
+	margin-bottom: 15px;
+	font-size: 50px;
+}
+.specialities-h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+
+.specialities-h3 {
+	font-size: 30px;
+	color: white;
+	padding-top: 20px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+}
+
+
+.specialities-middle {
+	text-align: center;
+}
+
+.specialities-row {
+	display: flex;
+	justify-content: center;
+}
+
+.specialities-col {
+	width: 400px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.specialities-image1, .specialities-image2, .specialities-image3 {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	cursor: pointer;
+}
+
+.specialities-image1{	
+	background-image: url("../images/4.jpg");
+	background-size: cover;
+}
+
+.specialities-image1:hover .specialities-overlay{
+	opacity: 1;
+}
+
+
+.specialities-image2 {
+	background-image: url("../images/5.jpg");
+	background-size: cover;
+}
+
+.specialities-image2:hover .specialities-overlay{
+	opacity: 1;
+}
+
+
+
+.specialities-image3 {
+	background-image: url("../images/6.jpg");
+	background-size: cover;
+}
+
+.specialities-image3:hover .specialities-overlay{
+	opacity: 1;
+}
+
+
+.specialities-overlay {
+	opacity: 0;
+	position: absolute;
+	background-color: rgba(242, 172, 50, 0.6);
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.specialities-overlay-border {
+	border: 2px solid white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+/************ End Specialities Section *****************/
+/************ Special Menu Section ***************/
+.special-menu-section {
+	text-align: center;
+	background-color: #f0f0f0;
+	padding: 50px;
+}
+
+.special-menu-container {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.special-menu-h1 {
+	font-family: "Rochester", cursive;
+	color: #F2AC32;
+	margin-bottom: 15px;
+	font-size: 40px;
+}
+
+.special-menu-h2 {
+	color: black;
+	margin-bottom: 50px;
+	font-size: 60px;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 2px;
+}
+
+.special-menu-h3 {
+	width: 100%;
+	font-family: "Rochester", cursive;
+	font-size: 22px;
+	letter-spacing: 2px;
+
+}
+
+.separator {
+	display: inline-block;
+	width: 40px;
+	border-bottom: 2px solid #fff;
+	margin: 15px auto;
+
+}
+
+.special-menu-h4 {
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 3px;
+	width: 100%;
+
+}
+.special-menu-p {
+	font-family: "Oswald", sans-serif;
+	font-size:  14px;
+	padding: 20px 10px;
+}
+
+.special-menu-col {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.col-large {
+	width: 50%;
+	height: 450px;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+
+.col-large-1, .col-large-3 {
+	background-color: #F2AC32;
+	color: #fff;
+	justify-content: center;
+	height: 600px;
+}
+
+.fa-apple, .fa-cutlery {
+	width: 100%;
+	font-size: 500px;
+	margin-bottom: 2px;
+}
+
+.col-large-2 {
+	background-image: url('../images/15.jpg');
+	background-size: cover;
+	height: 600px;
+	background-position: center;
+}
+
+.col-large-4 {
+	background-image: url('../images/14.jpg');
+	background-size: cover;
+	height: 600px;
+}
+
+.col-small {
+	width: 50%;
+	height: 225px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.col-small-1, .col-small-4, .col-small-6, .col-small-7 {
+	background-color: #fff;
+	height: 300px;
+}
+
+.col-small-2 {
+	background-image: url("../images/10.jpg");
+	background-size: cover;
+	height: 300px;
+	background-position: center;
+}
+
+.col-small-3 {
+	background-image: url("../images/8.jpg");
+	background-size: cover;
+	height: 300px;
+	background-position: center;
+}
+
+.col-small-5 {
+	background-image: url("../images/11.jpg");
+	background-size: cover;
+	height: 300px;
+	background-position: center;
+}
+
+.col-small-8 {
+	background-image: url("../images/12.jpg");
+	background-size: cover;
+	height: 300px;
+	background-position: center;
+}
+
+
+.col-small-h3 {
+	font-family: "Rochester", cursive;
+	font-size: 22px;
+	letter-spacing: 2px;
+	width: 100%;
+	color: #F2AC32;
+}
+
+.separator-orange {
+	display: inline-block;
+	width: 40px;
+	border-bottom: 2px solid #F2AC32;
+	margin: 15px auto;
+}
+
+.col-small-h4, .col-small-h5 {
+	width: 100%;
+	color: black;
+	letter-spacing: 2px;
+	font-family: "Oswald", sans-serif;
+}
+
+.col-small-h5 {
+	color: #F2AC32;
+	margin-top: 3px;
+}
+
+
+/************ End Special Menu Section ***************/
+/************ Start Booking Table Section ***************/
+.booking-table-section {
+	padding: 100px;
+	text-align: center;
+	background-color: #f0f0f0;
+}
+
+
+.booking-table-h1 {
+	font-family: "Rochester", cursive;
+	color: #F2AC32;
+	margin-bottom: 15px;
+	font-size: 40px;
+}
+
+.booking-table-h2 {
+	color: black;
+	margin-bottom: 50px;
+	font-size: 60px;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 2px;
+}
+
+.booking-table-row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.booking-div {
+	background-color: white;
+	margin: 30px 15px;
+	font-size: 40px;
+}
+
+.booking-icon {
+	padding: 40px 50px;
+	display: inline-flex;
+	border-right: 1px solid #f0f0f0; 
+}
+
+.booking-data {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.booking-cta {
+	background-color: #F2AC32;
+	color: white;
+	text-decoration: none;
+	padding: 40px 50px;
+}
+
+/************ End Booking Table Section ***************/
+/************ Footer Section ***************/
+footer {
+	padding: 60px 0px;
+	padding-bottom: 0;
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8)), url("../images/7.jpg");
+	background-size: cover;
+	color: white;
+	background-position: center;
+}
+
+.footer-row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.footer-col {
+	margin: 30px 60px;
+}
+
+.footer-col h3 {
+	font-family: "Oswald", sans-serif;
+	color: #F2AC32;
+	margin-bottom: 30px;
+}
+
+.footer-text {
+	font-family: "Oswald", sans-serif;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.footer-email {
+	padding: 10px 22px;
+	width: 230px;
+	height: 45px;
+	margin-bottom: 15px;
+}
+
+
+.footer-col a {
+	display: inline-block;
+	width: 230px;
+	color: white;
+	font-family: "Oswald", sans-serif;
+	text-decoration: none;
+	background-color: #F2AC32;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+}
+
+
+.copyright {
+	padding: 20px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	border-top: 1px solid white;
+}
+
